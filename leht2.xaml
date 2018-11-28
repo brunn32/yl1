@@ -1,0 +1,90 @@
+﻿<Page
+    x:Class="Ülesanne1_Bruno.leht2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ülesanne1_Bruno"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <ScrollViewer>
+        <StackPanel Name="pivot2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <ListView>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem></ListViewItem>
+                        <ListViewItem>a</ListViewItem>
+                    </ListView>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Orientation="Horizontal">
+                    <RelativePanel Margin="60,300,0,0" Height="auto">
+                        <GridView Name="grid1">
+                            <GridViewItem Background="LightGray" Height="150" Width="150"></GridViewItem>
+                            <GridViewItem Background="LightGray"></GridViewItem>
+                            <GridViewItem Background="LightGray"></GridViewItem>
+                            <GridViewItem Background="LightGray"></GridViewItem>
+                        </GridView>
+                        <GridView RelativePanel.Below="grid1">
+                            <GridViewItem Background="LightGray" Height="150" Width="150"></GridViewItem>
+                            <GridViewItem Background="LightGray"></GridViewItem>
+                            <GridViewItem Background="LightGray"></GridViewItem>
+                            <GridViewItem Background="LightGray"></GridViewItem>
+                        </GridView>
+                    </RelativePanel>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

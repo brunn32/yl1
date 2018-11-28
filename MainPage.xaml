@@ -1,0 +1,130 @@
+﻿<Page
+    x:Class="Ülesanne1_Bruno.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ülesanne1_Bruno"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+
+        <RelativePanel>
+            <StackPanel Name="headblock" Orientation="Horizontal">
+                <Button Name="backButton" Background="LightGray">
+                    <SymbolIcon Symbol="Back" Height="36"></SymbolIcon>
+                </Button>
+                <TextBlock Name="textblock" VerticalAlignment="Center" Margin="10,0,0,0">Title</TextBlock>
+            </StackPanel>
+
+
+            <StackPanel RelativePanel.Below="headblock">
+                <Pivot Height="auto">
+                    <PivotItem Header="leht1">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"></RowDefinition>
+                                <RowDefinition Height="1*"></RowDefinition>
+                                <RowDefinition Height="4*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Name="title1" Grid.Row="0">
+                                <TextBlock Name="title" Grid.Row="2">Page Title</TextBlock>
+                            </StackPanel>
+                            <StackPanel>
+
+                            </StackPanel>
+                        </Grid>
+                    </PivotItem>
+                    <PivotItem Header="leht2">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0">
+                                <ListView>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem></ListViewItem>
+                                    <ListViewItem>a</ListViewItem>
+                                </ListView>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" Orientation="Horizontal">
+                            <RelativePanel Margin="60,300,0,0" Height="auto">
+                                    <GridView Name="grid1">
+                                        <GridViewItem Background="LightGray" Height="150" Width="150"></GridViewItem>
+                                        <GridViewItem Background="LightGray"></GridViewItem>
+                                        <GridViewItem Background="LightGray"></GridViewItem>
+                                        <GridViewItem Background="LightGray"></GridViewItem>
+                                    </GridView>
+                                    <GridView RelativePanel.Below="grid1">
+                                        <GridViewItem Background="LightGray" Height="150" Width="150"></GridViewItem>
+                                        <GridViewItem Background="LightGray"></GridViewItem>
+                                        <GridViewItem Background="LightGray"></GridViewItem>
+                                        <GridViewItem Background="LightGray"></GridViewItem>
+                                    </GridView>
+                            </RelativePanel>
+                            </StackPanel>
+                        </Grid>
+                    </PivotItem>
+                    <PivotItem Header="leht3">
+                    </PivotItem>
+                    <PivotItem Header="leht4">
+                        <TextBlock>sad</TextBlock>
+                    </PivotItem>
+                    <PivotItem Header="leht5">
+                        <TextBlock>dsa</TextBlock>
+                    </PivotItem>
+                </Pivot>
+            </StackPanel>
+        </RelativePanel>
+    </Grid>
+</Page>
